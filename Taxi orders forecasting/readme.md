@@ -1,1 +1,5 @@
+| **Description project**                                                                                                                                       | **Technology stack**                                    | **Models & Metrics**                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Using historical data on taxi orders at airports, a model was built to forecast the number of taxi orders for the next hour. The model helps attract more drivers during peak periods. **Main metric:** RMSE. | numpy, pandas, matplotlib, seaborn, sklearn, statsmodels | Pipeline, DummyRegressor, LinearRegression, DecisionTreeRegressor, Seasonal_decompose, RandomizedSearchCV, TimeSeriesSplit, RMSE |
+
 
